@@ -11,7 +11,7 @@ import {
 const ItemSet: React.FC<IItemSet> = ({ itemSet }: IItemSet) => {
   return (
     <Card>
-      <Image src={itemSet.image} wrapped ui={false} />
+      <Image className="item" src={itemSet.image} wrapped ui={false} />
       <CardContent>
         <CardHeader>{itemSet.name}</CardHeader>
         <CardMeta>
