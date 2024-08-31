@@ -1,4 +1,3 @@
-import "./App.css";
 import Character from "./Characters/Character";
 import { BloodMage } from "./Utils/CharacterList";
 
